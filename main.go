@@ -111,7 +111,7 @@ func getAmounts(ctx context.Context, c *Customer) (map[string]int64, error) {
   }
   result := map[string]int64{
     "proposed": 0,
-    "approved": 0,
+    "accepted": 0,
     "rejected": 0,
   }
   query := client.Collection(fmt.Sprintf("customers/%s/treatments", c.Email))
