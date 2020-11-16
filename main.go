@@ -1,4 +1,4 @@
-//it's good
+//it's
 
 package main
 
