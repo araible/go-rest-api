@@ -75,7 +75,7 @@ func customerHandler(w http.ResponseWriter, r *http.Request) {
     fmt.Fprintf(w, `{"status": "fail", "data": "Unable to fetch amounts: %s"}`, err)
     return
   }
-  fmt.Fprintf(w, fmt.Sprintf(`{"status": "positive", "data": %s}`, data))
+  fmt.Fprintf(w, fmt.Sprintf(`{"status": "success", "data": %s}`, data))
 }
 type Customer struct {
   Email string `firestore:"email"`
