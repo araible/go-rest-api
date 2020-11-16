@@ -1,3 +1,5 @@
+//it's good to comment
+
 package main
 
 import (
