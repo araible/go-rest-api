@@ -1,4 +1,4 @@
-//it's good to comment
+//it's good
 
 package main
 
